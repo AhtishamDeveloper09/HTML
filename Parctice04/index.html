@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="post">
+        <div>
+            <label for="name">Enter you name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div> 
+            <label>Favourite Languages:</label>
+            <br>
+            <input type="checkbox" id="java" name="fav_language" value="java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="javascript" name="fav_language" value="javascript">
+            <label for="javascript">JavaScript</label><br>
+            <input type="checkbox" id="python" name="fav_language" value="python">
+            <label for="python">Python</label>
+        </div>
+        <div>
+            <label for="comment">Enter you comment:</label>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="cars">Select a car:</label>
+            <select id="cars" name="cars">
+                <option value="corolla">Corolla</option>
+                <option value="civic">Civic</option>
+                <option value="sportage">Sportage</option>
+            </select>
+        </div>
+
+
+
+
+    </form>
+</body>
+</html>
